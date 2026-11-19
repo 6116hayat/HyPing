@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background: #0f1419;
+    color: #e6e6e6;
+}
+
+.smoke-test {
+    max-width: 640px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #1a1f26;
+    border-radius: 12px;
+}
+
+.smoke-test h1 {
+    margin-top: 0;
+}
+
+.smoke-test section {
+    margin-top: 1.5rem;
+}
+
+.smoke-test pre {
+    background: #0a0d11;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    color: #7ee787;
+}
